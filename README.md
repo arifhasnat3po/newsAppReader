@@ -5,11 +5,21 @@ It is powered by the News API and utilizes natural language processing to provid
 
 Features
 Get news from a specific source
+
 Get news based on a search term
+
 Get news based on a category
+
 Read news headlines
+
 Open an article
+
+
 Go back to the main menu
+
+
+
+
 Installation
 Clone this repository to your local machine.
 Install the required dependencies by running npm install.
@@ -19,6 +29,9 @@ Copy code
 const config = {
   apiKey: 'your-api-key-here'
 };
+
+
+
 
 module.exports = config;
 Start the application by running npm start.
